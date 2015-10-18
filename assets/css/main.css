@@ -1,0 +1,48 @@
+#sidebar{
+  background-color: #42444E;
+  margin: 0;
+}
+@media screen and (min-width: 800px) {
+  #sidebar{
+      min-height: 650px;
+  }
+}
+#searchBox{
+  width: 65%;
+  margin: 15px 0px 20px 23px;
+  border-radius: 25px;
+  border: 0px;
+  padding-left: 10px;
+}
+#searchBox.active,:focus,:hover  {
+  outline: 0;
+}
+#searchButton{
+  border: 0px;
+  border-radius: 45%;
+}
+.glyphicon-search{
+  color: #F5F1F1;
+}
+
+.navbar-default{
+  border: 0px;
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
+#bodyContainer{
+  padding-left: 0px;
+}
+#sfilter{
+  background-color: transparent ;
+  border: 0px;
+  color: #fff;
+  font-weight: bold;
+  border-bottom: 1px solid #fff;
+  width: 90%;
+}
+
+#filterWrapper{
+  padding: 25px;
+  padding-top: 45px;
+}
